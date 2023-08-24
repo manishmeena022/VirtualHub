@@ -12,8 +12,8 @@ const accessLogStream = rfs.createStream('access.log',{
 
 const development = {
     name: 'development',
-    asset_path : './assets',
-    session_cookie_key : "Z8E30BJPwD9DJgLl8rJD3WLbR8Mn1izn",
+    asset_path : process.env.VIRTUALHUB_ASSET_PATH,
+    session_cookie_key : process.env.VIRTUALHUB_SESSION_COOKIE_KEY,
     db:  'VirtualHub_development',
     smtp: {
         service : 'gmail',
@@ -21,14 +21,14 @@ const development = {
         port : 587,
         secure : false,
         auth : {
-            user : 'manishkm22897@gmail.com',
-            pass : 'dxfounyedyvxftpy'
+            user : process.env.VIRTUALHUB_SMTP_AUTH_USER,
+            pass : process.env.VIRTUALHUB_SMTP_AUTH_PASS
         }
     },
-    google_client_id : "66476516893-nu0u3rtire4i5hgmrjenjfo5mg7r6lvn.apps.googleusercontent.com",
-    google_client_secret : "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",
-    google_call_back_URL : "http://localhost:8888/users/auth/google/callback",
-    jwt_secret : "9zzE4iV1FRgMiKaxqjVOogZtriPE4WaZ",
+    google_client_id : process.env.VIRTUALHUB_GOOGLE_CLIENT_ID,
+    google_client_secret : process.env.VIRTUALHUB_GOOGLE_CLIENT_SECRET,
+    google_call_back_URL : process.env.VIRTUALHUB_GOOGLE_CALLBACK_URL,
+    jwt_secret : process.env.VIRTUALHUB_JWT_SECRET_OR_KEY,
     morgan: {
         mode:'dev',
         options: {stream: accessLogStream}
