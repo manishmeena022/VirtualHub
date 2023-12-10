@@ -1,6 +1,0 @@
-::1 - - [19/Aug/2023:11:41:34 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
-::1 - - [19/Aug/2023:11:41:35 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
-::1 - - [19/Aug/2023:11:41:35 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
-::1 - - [19/Aug/2023:11:41:38 +0000] "GET / HTTP/1.1" 200 14971 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
-::1 - - [19/Aug/2023:11:41:39 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
-::1 - - [19/Aug/2023:11:41:39 +0000] "GET /css/chat_box.css HTTP/1.1" 404 155 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
